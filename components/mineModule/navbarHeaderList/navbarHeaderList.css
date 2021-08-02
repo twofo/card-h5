@@ -1,0 +1,16 @@
+/* components/mineModule/navbarHeaderList/navbarHeaderList.wxss */
+
+@import "../../common/weui.css";
+
+.top-box{
+  height: 110rpx;
+  background: #fff;
+}
+
+.top-box-distance{
+  margin-top: 20rpx;
+}
+
+
+
+

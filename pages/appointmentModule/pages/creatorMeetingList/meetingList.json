@@ -1,0 +1,10 @@
+{
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "会议记录",
+  "usingComponents": {
+    "navbar": "/components/attendanceModule/navbar/navbar",
+    "msg-no-data": "/components/common/msgNoData/msgNoData"
+  }
+}

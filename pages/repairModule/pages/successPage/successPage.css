@@ -1,0 +1,10 @@
+page{
+    background-color: #FFFFFF;
+}
+button[type='primary']{
+background-color: #20a4f7; 
+}
+.myui-text{
+  display: flex;
+  flex-direction:column;
+}

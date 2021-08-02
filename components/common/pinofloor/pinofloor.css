@@ -1,0 +1,137 @@
+
+.down-arrow{
+	display: inline-block;
+	width: 10rpx;
+	height: 10rpx;
+	border-right: 2rpx solid #999;
+	border-bottom: 2rpx solid #999;
+	transform: rotate(45deg);
+	margin-left: 20rpx;
+}
+.roomType{
+	display: flex;
+	align-items: center;
+	font-size: 30rpx;
+	flex: 1;
+	justify-content: center;
+}
+.selectBox{
+	display: flex;
+	height: 88rpx;
+}
+.selectItems span{
+	margin-left: 66rpx;
+}
+.selectTypeHead{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20rpx 30rpx;
+	box-sizing: border-box;
+	background-color: #fff;
+  width: 100vw;
+}
+.selectItems{
+	background-color: #fff;
+	/* animation:transp 0.5s ease-in-out; */
+	position: relative;
+	z-index: 9999;
+	float: left;
+	width: 50%;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+}
+.select{
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+	z-index: 9999;
+	padding: 11px 16px;
+	    box-sizing: border-box;
+	    border-bottom: 0.5px solid #D9D9D9;
+
+}
+.floor{
+	float: right;
+	width: 50%;
+	padding-bottom: 44rpx;
+	overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+}
+.floor p{
+	padding: 20rpx;
+	margin-left: 44rpx;
+	overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+		width: 100%;
+}
+.uni-scroll-view{
+	/* height: 652rpx; */
+}
+.uni-scroll-v{
+	height:0;
+}
+.uni-scroll{
+	height: 652rpx;
+}
+.pinocenter{
+	    width: 100%;
+	    overflow: hidden;
+	    background: white;
+		position: relative;
+		z-index: 200;
+}
+.piano-border{
+	position: absolute;
+	left: 50%;
+	/* border: 1px solid red; */
+	height: 100%;
+	margin-left: -1px;
+	
+	border: 1px solid #d9d9d9;
+}
+.items{
+	padding: 20rpx 30rpx;
+	box-sizing: border-box;
+	
+	color: #333333;
+	font-size: 32rpx;
+}
+
+.items-floor{
+	color: #20a4f7;;
+	padding: 19rpx 31rpx;
+	box-sizing: border-box;
+	font-size: 32rpx;
+	   width: 100%;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	
+}
+.pino{
+	color: #333333;
+	font-size: 32rpx;
+}
+.pinofloor{
+	color: #20a4f7;;
+	font-size: 32rpx;
+}
+@keyframes transp {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+.allPage{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: calc(100vh - 88rpx);
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+}

@@ -1,0 +1,25 @@
+
+/* pages/more/set_limit.wxss */
+
+.title__bd{
+  padding-top: 15rpx;
+}
+/* .title_font{
+  font-size: 17px;
+} */
+.title_font_min{
+  /* font-size: 14px; */
+  color: #20a4f7
+}
+.setLimit-view{
+    margin-top: 50rpx;
+}
+.h1-font{
+  color: #999
+}
+.desc-font{
+  margin-top:10rpx;
+}
+.submit_a{
+  border: 1px solid #e5e5e5;
+}

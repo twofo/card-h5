@@ -1,0 +1,37 @@
+/* components/select/select.wxss */
+
+.com-sImg{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 16px;
+    height: 16px;
+    transition: all .3s ease;
+}
+.com-sList{
+    margin-left: 200px;
+    width: 150px;
+    line-height: 60rpx;
+    border: 1px solid #e2e2e2;
+
+}
+.com-sItem{
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #e2e2e2;
+    padding: 0 6px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.com-sItem:first-child{
+    border-top: none;
+}
+.bd_width{
+  height: 50rpx;
+}

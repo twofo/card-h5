@@ -1,0 +1,10 @@
+
+@import "../approvalPendingList/approvalPendingList.css";
+
+.myui-cell__bd{
+  width: 30%;
+}
+.myui-cell__bf{
+  width: 70%;
+  color:#999;
+}

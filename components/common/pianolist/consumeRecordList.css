@@ -1,0 +1,73 @@
+.content{
+  width: 100%;
+  padding: 40rpx 8%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 100;
+}
+.header{
+  min-height: 88rpx;
+}
+.virtual{
+	   width: 47%;
+	    height: 126px;
+	    box-sizing: border-box;
+	    /* float: left; */
+	    margin-left: 11px;
+	    float: left;
+		position: relative;
+		bottom: 200rpx;
+}
+.load{
+	text-align: center;
+	position: relative;
+	bottom: 14%;
+	width: 100%;
+	z-index: 995;
+ }
+.roomList{
+  width: 47%;
+  height: 230rpx;
+  background-color: #ffffff;
+  border-radius: 8rpx;
+  box-shadow: 0 0 4rpx 4rpx rgb(228, 228, 228);
+  padding: 20rpx 18rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+  float: left;
+  margin-left: 20rpx;
+  position: relative;
+ z-index: 998;
+/*  z-index: 9998; */ 
+}
+.roomName{
+  font-size: 32rpx;
+  word-break: break-all;
+  height: 96rpx;
+  overflow: hidden;
+}
+.appiontRace{
+  font-size: 28rpx;
+  color: #969696;
+}
+.roomType{
+  
+  display: inline-block;
+  padding:8rpx 6rpx;
+/*  border: 2rpx solid #F5A623; */
+  background-color: #FEF8ED;
+  border-radius: 8rpx;
+  line-height: 1;
+  font-size: 24rpx;
+}
+.nomore{
+  text-align: center;
+  margin-top: 20rpx;
+}
+/* .load{
+	margin-top: 20rpx;
+} */

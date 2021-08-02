@@ -1,0 +1,48 @@
+.searchBox{
+	background-color: #fff;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+.foundList{
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.foundItems{
+	display: flex;
+	padding-bottom: 30rpx;
+}
+.foundThingName{
+	font-weight: bold;
+}
+.foundImg{
+	width: 250rpx;
+	height: 120rpx;
+}
+.foundInfo{
+  position: relative;
+}
+.lostStatus{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 6rpx 10rpx;
+  border-top-left-radius: 16rpx;
+  border-bottom-left-radius: 16rpx;
+  background: #F66C45;
+  font-size: 20rpx;
+  color: #fff;
+}
+.fontSize14{
+	font-size: 26rpx;
+	color: #666666;
+}
+.foundDesc{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.nomore{
+	text-align: center;
+	padding-top: 30rpx;
+}

@@ -1,0 +1,9 @@
+{
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "场所预约",
+  "usingComponents": {
+    "msg-select": "/components/common/msgSelect/msgSelect",
+    "search-inp":"/components/attendanceModule/searchAppiontPerson/searchAppiontPerson"
+  }
+}

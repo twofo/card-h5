@@ -1,0 +1,87 @@
+
+.background-content{
+  position: relative;
+  z-index: 1;
+}
+.background-up{
+  position: absolute;
+  z-index: 2;
+  margin: 3% 4% 0 4%;
+  width: 92%;
+}
+.background-up-top{
+  background-color: #fff;
+  box-shadow:0px 0px 1px 0px rgba(110,113,176,0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx 0rpx;
+  font-size: 15px;
+}
+
+/* 头部功能 */
+.wx-items{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: left;
+
+}
+.wx-item{
+  display: flex;
+  flex-direction: column;
+}
+.item-image{
+  width: 36px;
+  height: 36px;
+  position: relative;
+  z-index: 10;
+}
+.item-red-point{
+  width: 10px;
+  height: 10px;
+  /* border: 1px skyblue solid; */
+  position: absolute;
+  z-index: 11;
+  margin: 3px 0px 0 30px ;
+}
+.item-name{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 11px;
+}
+/* 消息列表 */
+.myui-cell{
+  position:relative;display:-webkit-box;display:-webkit-flex;display:flex;
+}
+.msg-title{
+  margin: 4% 2% 0 2%;
+  font-size: 13px;
+  color: #575757;
+  height: 30px;
+}
+.myui-read{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx 20rpx 0;
+}
+.content-ending{
+  width: 100%;
+  color: #bbb;
+  text-align: center;
+  margin: 30rpx auto;
+}
+
+
+
+

@@ -1,0 +1,52 @@
+/* pages/indexModule//pages/inOrOutSchoolList/inOrOutSchoolList.wxss */
+
+.myui-cell{padding:6rpx 35rpx;display: flex; flex-direction: row}
+.myui-cell-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #20a4f7;
+  align-content: center;
+  /*align-items: center; */
+}
+.myui-cell-bottom{padding:10px 15px;position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
+.myui-cell-bottom:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1rpx solid #e5e5e5;color:#d9d9d9;left:15px}.myui-cell-bottom:first-child:before{display:none}
+
+.myui-cell-bottom__bd{
+  
+  width: 50%;
+}
+.myui-cell-bottom__fd{
+  width: 50%;
+  border-left: 3rpx #20a4f7 solid; 
+}
+.myui-cell__bd{
+  width: 30%;
+}
+.myui-cell__bf{
+  width: 70%;
+  color:#999;
+}
+
+.myui-cells{
+  border: 1px white solid;
+
+}
+
+.myui-time{
+  font-size:14px;
+  margin: 20rpx 0;
+  /* border: 1px red solid; */
+}
+
+
+
+.myui-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.dangerNotice{  /*删除按钮 红色提示*/
+  color: red;
+}

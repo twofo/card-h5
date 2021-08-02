@@ -1,0 +1,28 @@
+.connectedSum{
+	padding: 20rpx 30rpx 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.searchBlueItem{
+	display: flex;
+	align-content: center;
+	font-size: 28rpx;
+}
+.sendErr{
+	color: #F66C45;
+}
+.noticeColor{
+	color: #FFC680;
+}
+.loadingImg{
+	animation:relation  1s linear infinite ;
+}
+
+@keyframes relation{
+	from{transform: rotate(0deg)}
+	to{transform: rotate(360deg)}
+}
+

@@ -1,0 +1,24 @@
+/* pages/repairModule/resources/components/timeNodes/timeNodes.wxss */
+.myui-cell-top{
+  padding: 20rpx 0rpx;
+}
+.myui-cell{
+  position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;
+  margin-top: 20rpx;
+}
+.myui-cell__bd{
+  -webkit-box-flex:1;-webkit-flex:1;flex:1;
+}
+.items-text__top{
+  margin-top: 10rpx;
+}
+.call_bn{
+  width: 130rpx;
+  height: 40rpx;
+  border: 1px #20a4f7 solid;
+  border-radius: 25rpx;
+  color: #20a4f7;
+  text-align:center;
+  font-size: 13px;
+  margin-top: 6rpx;
+}

@@ -1,0 +1,59 @@
+/* 统计图 */
+.list-box{
+  width: 100%;
+  height: 330px;
+  margin-top:.57em;
+  background-color:#fff;
+  padding-top:0px;overflow:auto;
+}
+.canvas {
+  margin-top: -100rpx;
+  margin-bottom: -90rpx;
+  width: 750rpx;
+  height: 750rpx;
+  transform: scale(0.7);
+  /* border: 1px skyblue solid; */
+}
+
+
+.weui-cells__box{
+  width: 100%;
+  height: 300rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  color: #999;
+  justify-content: center;
+}
+
+.myui-box{
+  padding-top: 105rpx;
+}
+
+.record-list{
+  background-color:#fff;
+  bottom:0;
+  padding:10px 15px;
+}
+.list-box-c{
+  position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;
+}
+
+.list-box-detail{
+  font-size: 11pt;
+  color: #c5c0c0;
+}
+.weui-tab__panel{
+  background: #fff;
+}
+.record-list{
+  background-color:#fff;
+  bottom:0;
+  padding:10px 15px;
+}
+.list-box-c{
+  position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;
+}
+.classDetail{
+  margin-top: 20rpx;
+}

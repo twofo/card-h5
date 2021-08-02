@@ -1,0 +1,47 @@
+/* components/common/appiontList/appiontList.wxss */
+.appiontmentlist{
+  width:100%;
+  background: #fff;
+  margin-top: 10rpx;
+}
+.appiontmentlist text{
+  font-size: 28rpx;
+}
+.appiontmentlist-head{
+  padding: 16rpx 32rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+  box-sizing: border-box;
+
+}
+.appiontList{
+  width: 100%;
+  display: flex;
+  padding: 40rpx 40rpx 40rpx 20rpx;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.appiontItem{
+  margin-left: 50rpx;
+  margin-bottom: 30rpx;
+
+}
+.appiontBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.appiontItem-img{
+  width: 88rpx;
+  height: 88rpx;
+
+
+}
+.appiontItem-img image{
+  width: 100%;
+  height: 100%;
+
+}
+.appiontTxt{
+  margin-top: 10rpx;
+}

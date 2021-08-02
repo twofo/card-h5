@@ -1,0 +1,23 @@
+
+.myui-cell{
+  display:flex;
+  flex-direction: row;justify-content: center;
+  align-items: center;
+  margin: auto 15px;
+}
+.msg-title{
+  font-size: 14px;
+  height: 38px;
+  line-height: 38px;
+  background-color: #fff;
+}
+.myui-read{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lists{
+  padding: 5px 1.5%;
+}

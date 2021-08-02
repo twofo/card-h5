@@ -1,0 +1,29 @@
+
+.centerBackground{
+  border-top: #fff;
+  background-color:#fff;
+  margin-bottom: 20rpx;
+  margin-top: -10rpx;
+  padding-bottom: 20rpx;
+}
+
+.border-topB{
+  border-bottom: #fff;
+}
+
+.topC{
+  margin-top: 35rpx;
+}
+.top{
+  margin-top: 70rpx;
+}
+button[type='primary']{
+  background-color: #20a4f7;
+} 
+.reviecerFontStyle{
+  width: 200rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}

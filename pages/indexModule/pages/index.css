@@ -1,0 +1,87 @@
+.box{
+  background-color: #20a4f7;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 30px;
+  padding-left: 5%;
+}
+.content{
+  width: 90%;
+  height: 79%;
+  padding-top: 18px;
+  background-color: #fff;
+}
+
+.box-barCode{
+  width: 90%;
+  height: 160px;
+  margin-left: 5%;  
+  display:flex;
+  flex-direction:column;
+  justify-content:center;  
+  align-items:center;
+}
+.barCode-pic{
+  width: 96%;
+  height: 100px;
+}
+.title{
+  margin-top: 15px;
+  color: #bbb;
+}
+
+.box-QRCode{
+  width: 90%;
+  height: 220px;
+  margin-left: 5%; 
+  margin-bottom: 20rpx; 
+  display:flex;
+  flex-direction:column;
+  justify-content:center;  
+  align-items:center;
+  padding-top: 30px;
+
+}
+.QRCode-pic{
+  width: 350rpx;
+  height: 350rpx;
+  
+}
+
+.bottom{
+  width: 100%;
+  height: 12%;
+  border-top: 1px #bbb solid;
+}
+.bottom-left{
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background: #20a4f7;
+  margin-left: -17px;
+  margin-top: -17px;
+}
+.bottom-right{
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background: #20a4f7;
+  float: right;
+  margin-top: -34px;
+  margin-right: -17px;
+}
+.bottom-content{
+  
+  width: 100%;
+  height: 60%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+  font-size: 15px;
+}
+.bottom-font{
+  font-size: 20px;
+  color: red;
+  margin: 0 10rpx;
+}

@@ -1,0 +1,1047 @@
+{
+	"pages": [
+		{
+			"path": "pages/tarBarModule/index/index",
+			"style": {
+				"navigationBarTitleText": "江职校园智慧一卡通",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tarBarModule/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tarBarModule/message/message",
+			"style": {
+				"backgroundColor": "#ffffff",
+				"backgroundTextStyle": "dark",
+				"navigationBarTitleText": "消息中心首页",
+				"enablePullDownRefresh": true
+			}
+		}
+      
+    ],
+	
+	"subPackages": [
+		{
+			"root": "pages/authModule/",
+			"pages": [
+				{
+					"path": "pages/index",
+					"style": {}
+				},
+				{
+					"path": "pages/successPage/successPage",
+					"style": {}
+				},
+				{
+					"path": "pages/failPage/failPage",
+					"style": {}
+				},
+				{
+					"path": "pages/login/login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"enablePullDownRefresh": false,
+						"disableScroll": true
+					}
+				},
+				{
+					"path": "pages/forgetPassword/forgetPassword",
+					"style": {
+						"navigationBarTitleText": "忘记密码",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/auth/auth",
+					"style": {
+						"navigationBarTitleText": "授权登录"
+					}
+				},
+				{
+					"path": "pages/bindPhone/bindPhone",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/switchRole/switchRole",
+					"style": {
+						"navigationBarTitleText": "角色切换",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "pages/reback/reback",
+					"style" : {}
+				}
+			]
+		},
+		{
+			"root": "pages/indexModule/",
+			"pages": [
+				{
+					"path": "pages/index",
+					"style": {}
+				},
+				{
+					"path": "pages/test/test",
+					"style": {}
+				},
+				{
+					"path": "pages/approvalInfo/approvalInfo",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "待办首页"
+					}
+				},
+				{
+					"path": "pages/functionOption/functionOption",
+					"style": {
+						"navigationBarTitleText": "公共资源"
+					}
+				},
+				{
+					"path": "pages/campusCard/campusCard",
+					"style": {
+						"navigationBarBackgroundColor": "#20a4f7",
+						"navigationBarTitleText": "个人中心_校园通",
+						"backgroundColor": "#ffcb63",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/waterInformation/waterInformation",
+					"style": {
+						"navigationBarBackgroundColor": "#20a4f7",
+						"navigationBarTitleText": "宿舍服务_水电费信息",
+						"backgroundColor": "#e78ab0",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/walletIndex/walletIndex",
+					"style": {
+						"navigationBarTitleText": "一卡通首页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/bankCard/bankCard",
+					"style": {
+						"navigationBarTitleText": "一卡通_添加银行卡",
+						"enablePullDownRefresh": false
+					}
+				},
+				
+				{
+					"path": "pages/addBankCard/addBankCard",
+					"style": {
+						"navigationBarTitleText": "一卡通_添加银行卡_输入信息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/paymentCode/paymentCode",
+					"style": {
+						"navigationBarTitleText": "一卡通_付款码",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/payRoll/payRoll",
+					"style": {
+						"navigationBarTitleText": "代付劵",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/payRollCode/payRollCode",
+					"style": {
+						"navigationBarTitleText": "分享代付劵"
+					}
+				},
+				{
+					"path": "pages/toPay/toPay",
+					"style": {
+						"navigationBarTitleText": "充值",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "pages/payResult/payResult",
+					"style" : {
+						"navigationStyle":"custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "pages/payResults/payResults",
+					"style" : {
+						"navigationStyle":"custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/toPayFee/toPayFee",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/toPayFeeList/toPayFeeList",
+					"style": {
+						"navigationBarTitleText": "缴费查询列表",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/toWithdraw/toWithdraw",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/toConsumeRecord/toConsumeRecord",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "消费记录"
+					}
+				},
+				{
+					"path": "pages/deviceManage/deviceManage",
+					"style": {
+						"navigationBarTitleText": "宿舍管理首页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/deviceOperationRecord/deviceOperationRecord",
+					"style": {
+						"navigationBarTitleText": "宿舍管理_设备操作记录",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/lockAuth/lockAuth",
+					"style": {
+						"navigationBarTitleText": "门锁授权",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/totalMeter/totalMeter",
+					"style": {}
+				},
+				{
+					"path": "pages/totalMeterOfWater/totalMeterOfWater",
+					"style": {
+						"navigationBarTitleText": "宿舍管理_房间详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/deviceOperation/deviceOperation",
+					"style": {}
+				},
+				{
+					"path": "pages/messageDetail/messageDetail",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"navigationBarTitleText": "消息_消息列表_详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/messageListOfType/messageListOfType",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"navigationBarTitleText": "消息_消息列表",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/inOrOutSchoolApply/inOrOutSchoolApply",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "留校申请"
+					}
+				},
+				{
+					"path": "pages/inOrOut/inOrOut",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "退宿申请"
+					}
+				},
+				{
+					"path": "pages/conflictLists/conflictLists",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "退宿申请"
+					}
+				},
+				
+				{
+					"path":"pages/synthesizeQuery/synthesizeQuery",
+					"style":{
+						"navigationBarTitleText": "综合查询首页"
+					}
+				},
+				{
+					"path": "pages/inOrOutSchoolApproval/inOrOutSchoolApproval",
+					"style": {}
+				},
+				{
+					"path": "pages/inOrOutSchoolList/inOrOutSchoolList",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "宿舍服务_申请记录"
+					}
+				},
+				{
+					"path": "pages/inOrOutSchoolDetail/inOrOutSchoolDetail",
+					"style": {}
+				},
+				{
+					"path": "pages/bluetoothDemo/bluetoothDemo",
+					"style": {}
+				},
+				{
+					"path": "pages/manageClass/manageClass",
+					"style": {
+						"navigationBarTitleText": "班级管理首页"
+					}
+				},
+				{
+					"path": "pages/manageClassDetail/manageClassDetail",
+					"style": {
+						"navigationBarTitleText": "班级管理_班级成员"
+					}
+				},
+				{
+					"path": "pages/studentInfo/studentInfo",
+					"style": {}
+				},
+				{
+					"path": "pages/foundThings/foundThings",
+					"style": {
+						"navigationBarTitleText": "失物招领"
+					}
+				},
+				{
+					"path": "pages/foundThingDetail/foundThingDetail",
+					"style": {
+						"navigationBarTitleText": "失物招领_物品详情"
+					}
+				},
+				{
+					"path": "pages/conflictList/conflictList",
+					"style": {
+						"navigationBarTitleText": "待办_冲突列表"
+					}
+				}
+            ]
+		},
+		{
+			"root": "pages/mineModule/",
+			"pages": [
+				{
+					"path": "pages/index",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/userDetail/userDetail",
+					"style": {
+						"navigationBarTitleText": "个人中心_用户详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/QRCodeDetail/QRCodeDetail",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "个人中心_二维码"
+					}
+				},
+				{
+					"path": "pages/uploadPic/uploadPic",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/issueUpdata/issueUpdata",
+					"style": {
+						"navigationBarTitleText": "个人中心_用户反馈",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/operatingRecord/operatingRecord",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"navigationBarTitleText": "个人中心_操作记录",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/help/help",
+					"style": {
+						"navigationBarTitleText": "个人中心_帮助",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/helpIssue/helpIssue",
+					"style": {
+						"navigationBarTitleText": "个人中心_帮助_问题",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/issueDetail/issueDetail",
+					"style": {
+						"navigationBarTitleText": "个人中心_帮助_问题详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/set/set",
+					"style": {
+						"navigationBarTitleText": "个人中心_设置",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/setLimit/setLimit",
+					"style": {
+						"navigationBarTitleText": "个人中心_设置_限额设置",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/passwordAlter/passwordAlter",
+					"style": {
+						"navigationBarTitleText": "修改密码",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/lossApply/lossApply",
+					"style": {
+						"navigationBarTitleText": "个人中心_卡挂失申请",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/about/about",
+					"style": {
+						"navigationBarTitleText": "个人中心_关于我们",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/publish/publish",
+					"style": {
+						"navigationBarTitleText": "发布公告",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/received/received",
+					"style": {
+						"navigationBarTitleText": "接收人",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/selectDepartmentOrBuild/selectDepartmentOrBuild",
+					"style": {
+						"navigationBarTitleText": "选择接收人",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/messageDemo/messageDemo",
+					"style": {}
+				},
+				{
+					"path": "pages/new/new",
+					"style": {
+						"navigationBarBackgroundColor": "#20a4f7",
+						"navigationBarTitleText": "告警详情",
+						"backgroundColor": "#20a4f7",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/attendanceModule/",
+			"pages": [
+				{
+					"path": "pages/index",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤首页"
+					}
+				},
+				{
+					"path": "pages/test/test",
+					"style": {}
+				},
+				{
+					"path": "pages/attendancePlan/attendancePlan",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "考勤计划首页"
+					}
+				},
+				{
+					"path": "pages/attendanceStatistics/attendanceStatistics",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤统计"
+					}
+				},
+				{
+					"path": "pages/attendanceStatisticsClassDetail/attendanceStatisticsClassDetail",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "班级考勤统计详情"
+					}
+				},
+				{
+					"path": "pages/approveManage/approveManage",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "审核管理"
+					}
+				},
+				{
+					"path": "pages/attendaceSend/attendaceSend",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤计划_编辑"
+					}
+				},
+				{
+					"path": "pages/selectPersonnel/selectPersonnel",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤计划_编辑_选择人员"
+					}
+				},
+				{
+					"path": "pages/selectMajor/selectMajor",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "选择专业"
+					}
+				},
+				{
+					"path": "pages/selectClass/selectClass",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "选择班级"
+					}
+				},
+				{
+					"path": "pages/selectStudent/selectStudent",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "选择学生"
+					}
+				},
+				{
+					"path": "pages/selectWeek/selectWeek",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "选择星期"
+					}
+				},
+				{
+					"path": "pages/boothDemo/boothDemo",
+					"style": {}
+				},
+				{
+					"path": "pages/studentIndex/studentIndex",
+					"style": {
+						"navigationBarTitleText": "考勤_归寝考勤"
+					}
+				},
+				{
+					"path": "pages/studentStatisticsIndex/studentStatisticsIndex",
+					"style": {
+						"navigationBarTitleText": "考勤_归寝考勤_考勤统计"
+					}
+				},
+				{
+					"path": "pages/studentStatistics/studentStatistics",
+					"style": {
+						"navigationBarTitleText": "考勤_归寝考勤_月考勤统计"
+					}
+				},
+				{
+					"path": "pages/studentReissueApply/studentReissueApply",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤_归寝考勤_补卡申请"
+					}
+				},
+				{
+					"path": "pages/studentClockIndex/studentClockIndex",
+					"style": {
+						"navigationBarTitleText": "考勤_归寝考勤_考勤列表"
+					}
+				},
+				{
+					"path": "pages/studentClock/studentClock",
+					"style": {
+						"navigationBarTitleText": "考勤_归寝考勤_考勤打卡"
+					}
+				},
+				{
+					"path": "pages/dutyTeacher/dutyTeacher",
+					"style": {
+						"navigationBarTitleText": "选择责任教师",
+							"enablePullDownRefresh": true
+
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/repairModule/",
+			"pages": [
+				{
+					"path": "pages/index",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "首页"
+					}
+				},
+				{
+					"path": "pages/successPage/successPage",
+					"style": {}
+				},
+				{
+					"path": "pages/studentRepairIndex/studentRepairIndex",
+					"style": {
+						"navigationBarTitleText": "报修首页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/studentRepairApply/studentRepairApply",
+					"style": {
+						"navigationBarTitleText": "报修_报修申请",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/studentRepairShow/studentRepairShow",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "报修_我的维修"
+					}
+				},
+				{
+					"path": "pages/studentRepairDetail/studentRepairDetail",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "报修_我的维修_详情"
+					}
+				},
+				{
+					"path": "pages/studentRepairComment/studentRepairComment",
+					"style": {
+						"navigationBarTitleText": "报修评价",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/selectRoom/selectRoom",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "报修_报修申请_选择房间"
+					}
+				},
+				{
+					"path": "pages/repairManage/repairManage",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "报修管理"
+					}
+				},
+				{
+					"path": "pages/repairDetail/repairDetail",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "报修详情"
+					}
+				},
+				{
+					"path": "pages/repairDistribute/repairDistribute",
+					"style": {
+						"navigationBarTitleText": "分配师傅",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/repairDetailOfMaintain/repairDetailOfMaintain",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "报修详情"
+					}
+				},
+				{
+					"path": "pages/maintainFinish/maintainFinish",
+					"style": {
+						"navigationBarTitleText": "维修完成",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/finishOrderStatistics/finishOrderStatistics",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "已完成工单统计"
+					}
+				},
+				{
+					"path": "pages/commentStatistics/commentStatistics",
+					"style": {
+						"navigationBarTitleText": "评论统计",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/appointmentModule/",
+			"pages": [
+				{
+					"path": "pages/index",
+					"style": {}
+				},
+				{
+					"path": "pages/test/test",
+					"style": {}
+				},
+				{
+					"path": "pages/attendanceIndex/attendanceIndex",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤_会议考勤"
+					}
+				},
+				{
+					"path": "pages/appointmentIndex/appointmentIndex",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "区域预约"
+					}
+				},
+				{
+					"path": "pages/creatorMeetingList/meetingList",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "会议记录"
+					}
+				},
+				{
+					"path": "pages/creatorMeetingDetail/meetingDetail",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "公共资源_会议记录_会议详情"
+					}
+				},
+				{
+					"path": "pages/creatorMeetingOperation/meetingOperation",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "公共资源_场所_会议申请"
+					}
+				},
+				{
+					"path": "pages/creatorAttendaceStatistics/attendaceStatistics",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "会议考勤统计"
+					}
+				},
+				{
+					"path": "pages/creatorAttendaceUserDetail/attendaceUserDetail",
+					"style": {}
+				},
+				{
+					"path": "pages/creatorAppointmentTime/appointmentTime",
+					"style": {
+						"navigationBarTitleText": "公共资源_会议申请_选择场次",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/creatorAppointmentRoom/appointmentRoom",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"navigationBarTitleText": "公共资源_场所预约"
+					}
+				},
+				{
+					"path": "pages/creatorAttendaceApprove/creatorAttendaceApprove",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "我的待办"
+					}
+				},
+				{
+					"path": "pages/creatorAttendaceApproveDetail/creatorAttendaceApproveDetail",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "请假详情"
+					}
+				},
+				{
+					"path": "pages/creatorSelectPerson/creatorSelectPerson",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "人群选择"
+					}
+				},
+				{
+					"path": "pages/creatorSelectDepartment/selectDepartment",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "公共资源_会议申请_已选人员"
+					}
+				},
+				{
+					"path": "pages/creatorSelectMajor/selectMajor",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "选择专业"
+					}
+				},
+				{
+					"path": "pages/creatorSelectClass/selectClass",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "公共资源_会议申请_选择人员"
+					}
+				},
+				{
+					"path": "pages/creatorSelectStudent/selectStudent",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "选择学生"
+					}
+				},
+				{
+					"path": "pages/creatorAppiontPianoRoom/appiontPianoRoom",
+					"style": {
+						"navigationBarTitleText": "公共资源_场所_琴房预约"
+					}
+				},
+				{
+					"path": "pages/commonArea/commonArea",
+					"style": {
+						"navigationBarTitleText": "公共资源"
+					}
+				},
+				{
+					"path": "pages/commonWatermeter/commonWatermeter",
+					"style": {
+						"navigationBarTitleText": "蓝牙用水"
+					}
+				},
+				{
+					"path": "pages/contentWatermeter/contentWatermeter",
+					"style": {
+						"navigationBarTitleText": "连接设备"
+					}
+				},
+				{
+					"path": "pages/attendMeetingList/attendMeetingList",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤列表"
+					}
+				},
+				{
+					"path": "pages/attendMeetingDetail/attendMeetingDetail",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "考勤会议详情"
+					}
+				},
+				{
+					"path": "pages/attendAttendaceSign/attendAttendaceSign",
+					"style": {
+						
+					}
+				},
+				{
+					"path": "pages/attendAskForLeaveApply/attendAskForLeaveApply",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/attentPianoList/attentPianoList",
+					"style": {
+						"backgroundColor": "#ffffff",
+						"backgroundTextStyle": "dark",
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "琴房预约记录"
+					}
+				},
+				{
+					"path": "pages/attendPionoDetial/attendPionoDetial",
+					"style": {
+						"navigationBarTitleText": "琴房详情"
+					}
+				},
+				{
+					"path": "pages/cancelPianoAppiontment/cancelPianoAppiontment",
+					"style": {
+						"navigationBarTitleText": "取消预约"
+					}
+				},
+				{
+					"path": "pages/selsectPianoRoom/selsectPianoRoom",
+					"style": {
+						"navigationBarTitleText": "选择场次"
+					}
+				},
+				{
+					"path": "pages/selectPianoTime/selectPianoTime",
+					"style": {
+						"navigationBarTitleText": "预定时间",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+	"networkTimeout": {
+		"request": 25000,
+		"connectSocket": 60000,
+		"uploadFile": 30000,
+		"downloadFile": 30000
+	},
+	"sitemapLocation": "sitemap.json",
+	"permission": {
+		"scope.userLocation": {
+			"desc": "您的位置信息将用于设备定位和蓝牙操作"
+		}
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#20a4f7",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"backgroundColor": "#20a4f7",
+		"backgroundTextStyle": "light",
+		"enablePullDownRefresh": false
+	}
+}

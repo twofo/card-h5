@@ -1,0 +1,113 @@
+
+.top{
+  margin-top: 15rpx;
+}
+.box-top{
+  margin-top: 0rpx;
+}
+.bottom{
+  margin-top: 160rpx;
+}
+button[disabled]{
+  color: #bbb;
+  background-color: #e3e3e3;
+}
+.btn-font{
+  width: 95%;
+  color: #fff;
+  background-color: #20a4f7;
+}
+.bottom-top{
+  margin-top: 200rpx;
+}
+.fontSize16{
+  font-size: 32rpx;
+}
+.center-box{
+  /* width: 100%;
+  height: 260rpx; */
+  /* padding-top: 20rpx; */
+}
+.input-title{
+  height: 100rpx;
+  margin-left: 40rpx;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+.input-box{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+  margin-left: 20rpx;
+  font-size: 48px;
+  height: 150rpx;
+}
+.input-value{
+  width: 100%;
+  height: 120rpx;
+	font-size: 70rpx !important;
+}
+.moneyList{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30rpx;
+  justify-content: space-between;
+  
+}
+.moneyItem{
+  min-width: 30%;
+  padding: 30rpx 0;
+  text-align: center;
+  border: 1rpx solid #20A4F7;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+
+}
+.MonIcon{
+	font-size: 28rpx;
+}
+
+.model_box{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: calc(100vh - 44px - env(safe-area-inset-top));
+	background: rgba(0,0,0,.3);
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.model_cont{
+	width: 75%;
+	height: 354rpx;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10rpx;
+}
+.dangeColor{
+	color: #EA1932;
+}
+.cells{
+	height: 100rpx;
+	line-height: 100rpx;
+	width: 90%;
+	text-align: center;
+	letter-spacing: 2rpx;
+	border-bottom: 4rpx solid #EEEEEE;
+}
+.cells:last-child{
+	border-bottom: none;
+}
+.Mtitle{
+	font-weight: bold;
+	height: 140rpx;
+	line-height: 140rpx;
+}

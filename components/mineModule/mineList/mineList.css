@@ -1,0 +1,11 @@
+/* components/mineModule/student/mineList.wxss */
+
+@import "../../common/weui.css";
+
+.more_bd{
+  margin-left:30rpx;
+  margin-top:15rpx;
+}
+.more_rightIcon{
+  margin-top:13rpx;
+}

@@ -1,0 +1,9 @@
+{
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "会议详情",
+  "usingComponents": {
+    "meeting-detail": "../../resources/components/meetingDetail/meetingDetail"
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../common/weui.css";
+.weui-cells__title_two{
+  padding-top: 10rpx;
+  color: #999;
+  margin-top:.37em;
+  padding-left:15px;padding-right:15px;            
+  font-size:14px;
+  background: #fff;
+}
+.weui-selsect{
+	margin-top: 0;
+}

@@ -1,0 +1,41 @@
+page{
+  font-size: 24rpx;
+}
+.page__bd_spacing {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.image-items{
+  width:15px;
+  height:20px;
+  vertical-align: middle;
+}
+.red{  /* 输入内容超字数 */
+  color: red;
+}
+.attendee{
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:  nowrap;
+
+}
+.appiontNotive{
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 20rpx;
+}
+.appiontNotive::before{
+	border: none;
+}
+.checkBox{
+  display: flex;
+}
+.checkInp{
+  margin-right: 20rpx;
+  border-bottom: 1rpx solid #dddddd;
+  width: 100rpx;
+  padding-right: 10rpx;
+  box-sizing: border-box;
+}

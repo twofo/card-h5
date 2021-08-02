@@ -1,0 +1,41 @@
+
+.record-list{
+  margin: 2% 2% 0% 2%;
+  /* height: 260px; */
+  background-color:#fff;
+  bottom:0;
+  padding:15px 20px;
+  position: relative;
+}
+.wx-image{
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px;
+}
+.list-box-c{
+  position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;
+}
+
+
+.button-sp-area{
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 70%;
+}
+button[type='primary']{
+background-color: #20a4f7; 
+}
+/*button[disabled] {
+  background: #5bc0de !important;
+} */
+
+.gotomeet{
+  position: absolute;
+  bottom: 10rpx;
+  right: 20rpx;
+  font-size: 24rpx;
+  color: #20a4f7;
+}
+.uni-scroll-view img,image{
+	max-width: 100%;
+}

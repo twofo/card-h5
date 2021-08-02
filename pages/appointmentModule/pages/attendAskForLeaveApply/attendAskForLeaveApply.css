@@ -1,0 +1,44 @@
+/* pages/appointmentModule//pages/attendAskForLeaveApply/attendAskForLeaveApply.wxss */
+
+.page__bd_spacing {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.image-items{
+  width:15px;
+  height:20px;
+  vertical-align: middle;
+}
+
+
+.myui-cells-items{
+  padding: 0 20rpx;
+  /* border: 1px rebeccapurple solid; */
+}
+.uploadImgBox{
+	padding: 20rpx 0rpx;
+}
+.uploadImg{
+	color: #BBBBBB;
+	vertical-align: middle;
+	margin-right: 16rpx;
+	box-sizing: border-box;
+}
+.uploadImg image{
+	width: 96rpx;
+	height: 96rpx;
+	margin-right: 20rpx;
+}
+.uploadImgTxt{
+	font-size: 28rpx;
+	display: inline-block;
+	width: 250rpx;
+
+}
+.pickTimes{
+	display: flex;
+}
+.pickTimesArrow{
+	margin-left: 10rpx;
+}

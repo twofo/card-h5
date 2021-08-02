@@ -1,0 +1,349 @@
+.container{
+  padding-bottom: 0;
+  background-color: #f0eff5;
+  background-repeat: no-repeat;
+  background-size: 100% auto; 
+  background-position: bottom center;
+  width:100%;overflow: hidden;
+  /*微信暂不支持静态bgimg文件，改用服务器url*/
+  /* background-image: url("http://app.keyunzhihui.com/tri.png"); */
+}
+
+/**卡片列表**/
+.main-card {
+  padding-bottom: 300rpx;
+}
+.message{
+	margin-left: 30rpx;
+}
+.main-card-item{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-top: 1rpx solid #e5e5e5;
+  border-bottom: 1rpx solid #e5e5e5;
+  margin-bottom: 20rpx;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom center;
+  overflow: hidden;
+}
+
+.main-card-item#ykt{
+  /*background-image: url("../../../static/index/ykt-bg.png");*/
+  /*微信暂不支持静态bgimg文件，改用服务器url*/
+  background-image: url("http://app.keyunzhihui.com/ykt-bg.png");
+}
+.main-card-item#jy{
+  /*background-image: url("../../../static/index/jy-bg.png");*/
+  /*微信暂不支持静态bgimg文件，改用服务器url*/
+  background-image: url("http://app.keyunzhihui.com/jy-bg.png");
+}
+.main-card-item#sdf{
+  /*background-image: url("../../../static/index/sdf-bg.png");*/
+  /*微信暂不支持静态bgimg文件，改用服务器url*/
+  background-image: url("http://app.keyunzhihui.com/sdf-bg.png");
+}
+.main-card-item navigator{
+  display: flex;
+  flex-direction: column;
+}
+page .navigator-hover{
+  background-color: rgba(100,100,100,0.1);
+  opacity: 0.8;
+}
+.card-item-hd{
+  display: flex;
+  align-items: center;
+  height: 75rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+  margin-left: 30rpx;
+}
+.card-item-icon{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 10rpx;
+}
+.card-item-device{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+  /* border: 1px red solid; */
+}
+.item-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  width: 300rpx;
+  letter-spacing: 2px;
+  padding-right: 80rpx;
+  font-family: fantasy;
+}
+.card-item-op{
+  width: 70rpx;
+  height: 70rpx;
+  margin-right: 40rpx;
+  margin-top: 20rpx;
+}
+.card-item-op1{
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 40rpx;
+  margin-top: 20rpx;
+}
+.card-item-name{
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.card-item-more{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 25rpx;
+}
+.card-item-open{
+  width: 30rpx;
+  height: 30rpx;
+}
+.card-item-bd{
+  padding: 20rpx 25rpx 30rpx 0;
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.card-info-hd{
+  display: flex;
+  justify-content: space-between;
+}
+.card-info-left{
+  display: flex;
+  flex-direction: column;
+}
+.card-info-right{
+  display: flex;
+  color: #acacac;
+  flex-direction: column;
+}
+.card-info-name{
+  font-size: 16pt;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #acacac;
+}
+.card-info-number{
+  line-height: 175%;
+  text-indent: 1px;
+  color: #aaa;
+}
+.main-ending{
+  display: none;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 75rpx;
+  overflow: hidden;
+}
+.main-ending-text{
+  width: 72pt;
+  color: #ccc;
+  font-size: 8pt;
+  padding: 0 16rpx;
+  text-align: center;
+  white-space: nowrap;
+}
+.main-ending-line{
+  width: 100%;
+  height: 0;
+  border-top: 1rpx solid #e5e5e5;
+}
+/**今日课表**/
+.main-card-item#kb .card-item-bd{
+  padding: 0;
+  margin-right: 25rpx;
+}
+
+.kb-item{
+  display: flex;
+  height: 180rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dotted #e5e5e5;
+}
+.kb-item-left{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+  overflow: hidden;
+}
+.kb-item-what{
+  font-size: 10pt;
+  line-height: 200%;
+  color: #777;
+  white-space: nowrap;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* border: 1px red solid; */
+  width: 110rpx;
+  display: flex;
+  justify-content: center;
+}
+.remind-img1 {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 100rpx;
+}
+
+.remind-box{
+  background: #fff;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.remind-text{
+  margin-top: 30rpx;
+  color: #ccc;
+}
+
+
+/* 头部统计展示 */
+.top-box{
+  width: 100%;
+  /* height: 50px; */
+  background: #20a4f7;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+	flex-wrap: wrap;
+}
+.box-items{
+  min-width: 30%;
+  height: 70px;
+  color: #fff;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.title-items{
+  font-size: 18px;
+}
+.detail-items{
+  font-size: 12px;
+}
+
+/* 人脸识别弹窗 */
+.toastCover{
+  position: relative;
+  z-index: 99999;
+}
+.toastCover-head{
+  text-align: center;
+  font-size: 36rpx;
+  letter-spacing: 4rpx;
+}
+.noticeFont{
+  color: #20A4F7;
+}
+.toastCover-cont{
+  margin:76rpx auto 0;
+}
+.toastCover-cont-head{
+  margin-bottom: 20rpx;
+}
+.stepFlue{
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.stepPhoto{
+  margin-top: 60rpx;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.oldPhoto{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+
+}
+.oldPhoto image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.stepType{
+  width: 100%;
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.toast-btn{
+  display: flex;
+  margin-top: 30rpx;
+  height: 140rpx;
+  align-items: center;
+
+}
+.toast-btn view{
+  width: 50%;
+  text-align: center;
+}
+.toast-btn .btnLine{
+  border-left:4rpx solid #20a4f7;
+}
+.carousel{
+  padding-top: 1rpx;
+  width: 100%;
+}
+.carousel_swiper{
+  width: 100%;
+  height: 300rpx;
+  display: block;
+  position: relative;
+  background: #f4f4f4;
+}
+.carouselImg{
+  width: 100%;
+  height: inherit;
+}
+.top-box-more{
+	width: 100%;
+	height: 20px;
+	background: #20a4f7;
+	font-size: 24rpx;
+	color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.down-arrow{
+	display: inline-block;
+	width: 10rpx;
+	height: 10rpx;
+	border-right: 2rpx solid #fff;
+	border-bottom: 2rpx solid #fff;
+	transform: rotate(45deg);
+	margin-left: 20rpx;
+}
+.top-arrow{
+	display: inline-block;
+	width: 10rpx;
+	height: 10rpx;
+	border-right: 2rpx solid #fff;
+	border-top: 2rpx solid #fff;
+	transform: rotate(-45deg);
+	margin-left: 20rpx;
+}
+
+

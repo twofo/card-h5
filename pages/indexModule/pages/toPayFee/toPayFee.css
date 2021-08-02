@@ -1,0 +1,80 @@
+
+.background-content{
+  position: relative;
+  z-index: 1;
+}
+
+/* 当前余额 */
+.box-show-msg{
+  width: 70%;
+  height: 100px;
+  margin-left: 15%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;  
+  align-items:center;
+}
+.background-up-title{
+	margin-top: 140rpx;
+}
+.box-show-balance{
+  width: 200px;
+  height: 24px;
+  font-size: 17px;
+  color: #fff;
+  display:flex;
+  flex-direction:column; 
+  align-items:center;
+  margin-top: 20px;
+}
+.box-show-money{
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 40rpx;
+}
+.background-up{
+  position: absolute;
+  z-index: 2;
+  margin: 21% 4% 0 4%;
+}
+/* 消费 */
+.background-up-top{
+  /* TODO */
+  /* background-color: #fff; */
+  box-shadow:0px 0px 1px 0px rgba(110,113,176,0.5);
+  font-size: 15px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+}
+.box-items{
+  width: 90%;
+  height: 66px;
+  display:flex;
+  flex-direction:column; 
+  align-items:center;
+  color: rgb(32,164,247);
+}
+.items-border{
+  border-right: 1px #e5e5e5 solid;
+  height: 66px;
+}
+.items-balance{
+  margin-top: 16px;
+  font-size: 20px;
+}
+/* 缴费查询 */
+.myui-cell__img{
+  width: 5px;
+  height: 16px;
+  background-color: rgb(32,164,247);
+}
+.myui-cell{padding:10px 1px;position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
+.myui-cell__ft{text-align:right;color:#999}
+.myui-cell__ft_in-access{padding-right:13px;position:relativ;color: rgb(32,164,247);}
+.myui-cell__ft_in-access:after{content:" ";display:inline-block;height:6px;width:6px;border-width:2px 2px 0 0;border-color:rgb(32,164,247);border-style:solid;-webkit-transform:matrix(.71,.71,-.71,.71,0,0);transform:matrix(.71,.71,-.71,.71,0,0);position:relative;top:-2px;position:absolute;top:50%;margin-top:-4px;}
+/* 缴费列表 */
+
+

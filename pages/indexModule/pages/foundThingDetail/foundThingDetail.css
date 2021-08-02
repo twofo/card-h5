@@ -1,0 +1,40 @@
+.swiper-item,.lostThingImg{
+	width: 100%;
+	height: 100%;
+}
+.lostThingInfoBox{
+	margin-top: 20rpx;
+	font-size: 28rpx;
+}
+.lostThingInfo{
+	
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	line-height: 2.5;
+	
+}
+.lostThingsDetail{
+	background-color: #fff;
+}
+.phoneNum{
+	color: #20A4F7;
+}
+.lostName{
+	width: 150rpx;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+}
+.lostDesc{
+	border-top: 12rpx solid #EFF0F0;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+.lostDesction{
+	text-indent: 2em;
+	height: auto;
+	min-height: 200rpx;
+	display: inline-block;
+}

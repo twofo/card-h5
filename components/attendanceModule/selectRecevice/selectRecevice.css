@@ -1,0 +1,41 @@
+/* components/attendanceModule/selectRecevice/selectRecevice.wxss */
+
+@import "../../common/weui.css";
+
+.box-top{
+  /* margin-top: 20rpx; */
+}
+.right-box{
+  /* width: 150rpx; */
+  height: 100%;
+  border-left: 1px #e3e3e3 solid;
+  color: #2eaaf8;
+}
+.right-img{
+  width: 50px;
+  height: 20px;
+  margin-right: 25rpx;
+  margin-top: 10rpx;
+}
+.center-top{
+  margin-top: 10rpx;
+  padding-top: 30rpx;
+}
+.box{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+}
+.floor-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  color: #ffff;
+  background-color: #20a4f7;
+}
+.loading{
+  font-size: 24rpx;
+  margin: 30rpx 0;
+}

@@ -1,0 +1,68 @@
+/* components/repairModule/repairList/repairList.wxss */
+
+@import "../../common/weui.css";
+.myui__bd{
+  padding: 0rpx 15rpx;
+}
+.list-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.myui-cell{
+  padding:10px 15px;position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;
+}
+.myui-cells{position:relative;margin-top:0.57647059em;background-color:#fff;line-height:1.41176471;font-size:16px;}
+.myui-cell__ft{
+  text-align:right;
+}
+.myui-cell__bd{
+  height: 100rpx;
+}
+.myui-cell__msg{
+  padding:10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+.cell__text{
+  color: #999;
+}
+.call_bn{
+  width: 130rpx;
+  height: 50rpx;
+  border: 1px #aaa solid;
+  border-radius: 25rpx;
+  text-align:center;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weui-cells__box{
+  height: 500px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  color: #999;
+  justify-content: center;
+  margin: 10rpx 20rpx;
+}
+.blue-btn{
+  color: #20a4f7;
+  border: 1px #20a4f7 solid;
+}
+
+
+.myui-bd__ft{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+.myui-cell-image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 30rpx;
+}

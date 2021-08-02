@@ -1,0 +1,13 @@
+@import "../../common/weui.css";
+.contTitle{
+  width: 26%;
+  float: left;
+  overflow: hidden;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+
+.weui-cell__ft{
+   width: 74%;
+}

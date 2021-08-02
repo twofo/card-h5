@@ -1,0 +1,29 @@
+.detailSearch{
+	width: 100%;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+	
+	background-color: #fff;
+}
+.detailList{
+	padding: 0 20rpx;
+	box-sizing: border-box;
+	background-color: #fff;
+	padding-bottom: 60rpx;
+}
+.className{
+	font-weight: bolder; 
+	margin-right: 20rpx;
+}
+.number{
+	color: #999;
+}
+.detailClassName{
+	border-bottom: 2rpx solid #ddd;
+	padding-bottom: 20rpx ;
+}
+.nobody{
+	margin-top: 100rpx;
+	text-align: center;
+	
+}

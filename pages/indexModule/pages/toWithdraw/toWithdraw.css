@@ -1,0 +1,81 @@
+
+.top{
+  margin-top: 15rpx;
+}
+.box-top{
+  margin-top: 40rpx;
+}
+.bottom{
+  margin-top: 160rpx;
+}
+button[type='primary']{
+  color: #fff;
+  background-color: #20a4f7;
+}
+button[disabled][type='primary']{
+  background-color: #7fc8f5; 
+}
+.bottom-top{
+  margin-top: 140rpx;
+}
+.center-box{
+  width: 100%;
+  height: 260rpx;
+  /* padding-top: 20rpx; */
+}
+.input-title{
+  width: 100%;
+  height: 100rpx;
+  margin-left: 40rpx;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+.input-box{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+  margin-left: 20rpx;
+  font-size: 48px;
+  width: 100%;
+  height: 150rpx;
+}
+.input-value{
+  width: 100%;
+  height: 120rpx;
+	font-size: 70rpx !important;
+}
+.toWithdraw-font{
+  color: #20a4f7;
+}
+.MonIcon{
+	font-size: 28rpx;
+}
+.errNotice{
+	color: #888888;
+}
+.errNotices{
+	font-size: 15px;
+}
+.whetherclick{
+	margin-top: 15rpx;
+    margin-left: 10px;
+	font-size: 14px;
+}
+.c-top{
+	margin-left: 20px;
+}
+.items-select-pic{
+	width: 30px;
+	height: 30ox;
+	
+}
+.input-group{
+	display: flex;
+	align-items: center;
+     padding: 10px 15px;
+}
+.reminder{
+	padding: 10px 15px;
+}

@@ -1,0 +1,46 @@
+@import "../../common/weui.css";
+
+.page,
+.page__bd {
+	height: 100%;
+}
+
+.page__bd {
+	padding-bottom: 0;
+}
+
+.weui-tab__content {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.navbar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	z-index: 500;
+	top: 0;
+	width: 100%;
+	border-bottom: 1rpx solid #ccc;
+	margin-top: 0rpx;
+	background: #fff;
+	height: 100rpx;
+}
+
+.navbarr__item_on {
+	/* border-radius: 100rpx;
+  padding: 30rpx 0rpx; */
+	/* background: #20a4f7; */
+}
+
+.page_top-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	z-index: 500;
+	top: 0;
+	width: 98%;
+	height: 70rpx;
+	padding: auto 10rpx;
+	background: #fff;
+	padding-left: 10rpx;
+}

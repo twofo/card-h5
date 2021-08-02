@@ -1,0 +1,19 @@
+.myui__box{
+  padding: 10rpx 20rpx;
+}
+
+.myui-cell{
+  padding:10px 2px;position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;
+}
+.call_bn{
+  width: 130rpx;
+  height: 40rpx;
+  border: 1px #20a4f7 solid;
+  border-radius: 25rpx;
+  color: #20a4f7;
+  text-align:center;
+  font-size: 13px;
+}
+.myui-cell-top{
+  margin-top: 50rpx;
+}

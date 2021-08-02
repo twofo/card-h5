@@ -1,0 +1,116 @@
+
+.background-content{
+  position: relative;
+  z-index: 1;
+}
+
+.background-up{
+  position: absolute;
+  z-index: 2;
+  margin: 3% 4% 0 4%;
+  background-color: #fff;
+  /* width: 92%; */
+  box-shadow:0px 0px 2px 0px rgba(110,113,176,0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx 0rpx 0;
+  font-size: 15px;
+}
+.myui-cell{
+  position:relative;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;
+}
+.myui-cell-image{
+  background-color: rgb(122,227,118);
+ 
+}
+.wx-font{ 
+ overflow: hidden;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp:2;/* 设置 需要显示的行数 */
+ font-size: 12px;
+ color: rgb(50,53,73);
+}
+.wx-device{
+  margin: 35rpx 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 电量显示 */
+.wx-show{
+  /* border: 1px skyblue solid; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.show-items{
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  margin-left: 3px;
+}
+.items-black{
+  background-color: rgb(123,138,150);
+}
+.items-red{
+  /* margin-left: 13px; */
+  background-color: rgb(228,87,87);
+}
+.items-start{
+  background-color: rgb(123,138,150);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.items-end{
+  background-color: rgb(228,87,87);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.items-box-point{
+  width: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+}
+.items-point{
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 6rpx;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+/* 总闸开关 */
+.wx-button{
+  width: 86%;
+  margin: auto;
+  font-size: 13px;
+  color: rgb(60,58,80);
+}
+.button-box{
+  height: 86%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* 分路开关 */
+.emmter-box{
+  margin: 0% 4% 0 4%;
+}
+.emmter-items{
+  display: flex;
+  flex-direction: row;
+}
+.emmter-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0px 0 30px; 
+}

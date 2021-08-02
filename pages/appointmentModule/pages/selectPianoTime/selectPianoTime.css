@@ -1,0 +1,77 @@
+.pages{
+  width: 100%;
+  /* min-height: 100vh; */
+  height: calc(100vh - 88rpx);
+  background-color: #20A4F7;
+  color:#fff;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 88rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.header::after{
+  content: "";
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 0;
+  width: 70%;
+  height: 2rpx;
+  background-color: #1C92DC;
+}
+.arrowLf{
+  display: inline-block;
+  width: 16rpx;
+  height: 16rpx;
+  border-top: 4rpx solid #fff;
+  border-left: 4rpx solid #fff;
+  transform: rotate(-45deg);
+}
+.arrowRf{
+  display: inline-block;
+  width: 16rpx;
+  height: 16rpx;
+  border-top: 4rpx solid #fff;
+  border-right: 4rpx solid #fff;
+  transform: rotate(45deg);
+}
+.cantTap{
+  border-color: #ccc;
+}
+.contTitle{
+  font-size: 28rpx;
+}
+.content{
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.timeList{
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  align-items: center;
+}
+.noHasAppiont{
+  color: #ccc;
+}
+.arrowBox{
+  display: flex;
+  width: 100rpx;
+  height: 80rpx;
+  align-items: center;
+  justify-content: flex-end;
+}
+.arrowBoxL{
+  display: flex;
+  width: 100rpx;
+  height: 80rpx;
+  align-items: center;
+  justify-content: flex-start;
+}

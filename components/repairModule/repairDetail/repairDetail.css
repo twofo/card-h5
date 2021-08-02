@@ -1,0 +1,38 @@
+/* components/repairModule/repairDetail/repairDetail.wxss */
+@import "../../common/weui.css";
+
+.myui__box{
+  padding: 10rpx 20rpx;
+}
+.myui-bd__ft{
+  display: flex;
+  flex-direction: row;
+
+}
+.myui-cell-image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.myui-call__btn{
+   width: 140rpx;
+  height: 50rpx;
+  color: #20a4f7;
+  border: 1px #20a4f7 solid;
+  border-radius: 25rpx;
+  text-align:center;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 图片 */
+.text-date{
+  padding: 20rpx 30rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+}
+.img{
+  width: 120rpx;
+}

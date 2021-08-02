@@ -1,0 +1,49 @@
+/* pages/indexModule//pages/synthesizeQuery/synthesizeQuery.wxss */
+
+.page__bd_spacing {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.myui-navbar-flex{
+  padding: 20rpx 0;
+  border-bottom: 1px #ddd solid;
+}
+.myui-navbar-left{
+  width: 30%;
+  height: 60rpx;
+}
+.myui-navbar-center{
+  width: 50%;
+  height: 60rpx;
+}
+.myui-navbar-right{
+  width: 15%;
+  height: 60rpx;
+
+}
+.navbar-left{
+  background-color: #fff;
+  width: 80%;
+  height: 60rpx;
+}
+.navbar-center{
+  background-color: #fff;
+  margin: 0 0rpx 0 50rpx;
+  width: 85%;
+}
+.navbar-right{
+  background-color: #fff;
+  border: 1px  #ddd solid;
+  font-size: 25rpx;
+}
+
+.text-center{
+  text-align: center;
+  /* 字体垂直居中 */
+  line-height: 30px;
+}
+
+.myui-tab-items{
+  /* border: 1px rebeccapurple solid; */
+}

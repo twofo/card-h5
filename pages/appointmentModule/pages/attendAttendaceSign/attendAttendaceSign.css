@@ -1,0 +1,106 @@
+.box{
+  background-color: #20a4f7;
+  width: 100vw;
+  height: calc(100vh - 88rpx);
+  padding-top: 12%;
+  padding-left: 5%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.content{
+  width: 95%;
+  height: 70%;
+  padding-top: 28px;
+  background-color: #fff;
+}
+/* 头部 图像+姓名 */
+.info-hd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffff;
+  width: 90%;
+  height: 20%;
+  margin-left: 10%;  
+}
+.user-avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 5px;
+  margin-top: 6rpx;
+}
+.info-right{
+  color: #666;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.user-right-top{
+  display: flex;
+  flex-direction: row;
+}
+.user-text{
+  margin-top: 20rpx;
+  font-size: 13pt;
+}
+.username{
+  width: 500rpx;
+  font-size: 17pt;
+  margin-top: 20rpx;
+  font-weight: 550;
+}
+/* 二维码 */
+.box-QRCode{
+  width: 90%;
+  height: 70%;
+  margin-left: 5%; 
+  margin-top: -50rpx;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;  
+  align-items:center;
+}
+.QRCode-pic{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width: 430rpx;
+  height: 430rpx;
+}
+
+
+
+
+
+.bottom{
+  width: 100%;
+  height: 12%;
+  border-top: 1px #bbb solid;
+}
+.bottom-left{
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background: #20a4f7;
+  margin-left: -17px;
+  margin-top: -17px;
+}
+.bottom-right{
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background: #20a4f7;
+  float: right;
+  margin-top: -34px;
+  margin-right: -17px;
+}
+.bottom-content{
+  width: 100%;
+  height: 60%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+  font-size: 17px;
+}

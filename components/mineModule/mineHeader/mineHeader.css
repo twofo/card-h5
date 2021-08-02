@@ -1,0 +1,44 @@
+/* components/mineModule/mineHeader/mineHeader.wxss */
+
+.info-hd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffff;
+}
+
+.user-avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  margin-top: 6rpx;
+}
+
+.info-right{
+  /* border: 1px red solid; */
+  width: 65%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.user-right-top{
+  display: flex;
+  flex-direction: row;
+}
+
+.user-text{
+  font-size: 28rpx;
+}
+
+.username{
+  width: 500rpx;
+  font-size: 34rpx;
+  font-weight: 550;
+}
+
+.QRcode{
+  width: 60rpx;
+  height: 60rpx;
+}

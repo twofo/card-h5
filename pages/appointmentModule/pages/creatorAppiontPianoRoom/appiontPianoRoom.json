@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "琴房预约",
+  "usingComponents": {
+    "toast-cover":"/components/common/toastCover/toastCover"
+  }
+}

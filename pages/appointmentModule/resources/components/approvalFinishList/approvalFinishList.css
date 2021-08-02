@@ -1,0 +1,11 @@
+/* pages/appointmentModule/resources/components/checkFinishList/checkFinishList.wxss */
+
+@import "../approvalPendingList/approvalPendingList.css";
+
+.myui-cell__bd{
+  width: 25%;
+}
+.myui-cell__bf{
+  width: 60%;
+  color:#999;
+}

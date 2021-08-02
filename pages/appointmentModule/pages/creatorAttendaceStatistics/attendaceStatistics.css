@@ -1,0 +1,88 @@
+/* pages/appointmentModule//pages/attendaceStatistics/attendaceStatistics.wxss */
+
+.myui-two {
+	display: flex;
+	flex-direction: column;
+}
+
+.myui-cell-two {
+	padding: 10px 15px;
+	margin-top: -25rpx;
+	color: #999;
+	font-size: 14px;
+}
+
+.myui-cell {
+	padding: 10px 15px;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.myui-cell:before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 1px;
+	border-top: 1rpx solid #e5e5e5;
+	color: #d9d9d9;
+	left: 15px;
+}
+
+.myui-cell__bd {
+	width: 25%;
+}
+
+.myui-cell__bf {
+	width: 75%;
+	color: #999;
+}
+
+.myui-title {
+	font-size: 15px;
+	padding: 0rpx 0rpx 10rpx;
+	margin: 0rpx 0rpx;
+}
+
+.ec-canvas {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.list-box {
+	width: 100%;
+	height: 330px;
+	margin-top: .57em;
+	background-color: #fff;
+	padding-top: 0px;
+	overflow: auto;
+
+}
+
+.canvas {
+	margin-top: -100rpx;
+	margin-bottom: -90rpx;
+	width: 750rpx;
+	height: 750rpx;
+	transform: scale(0.8);
+	z-index: 0;
+	/* margin-left: -40rpx; */
+
+	/* border: 1px skyblue solid; */
+}
+
+
+.weui-cells__box {
+	width: 100%;
+	height: 700rpx;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	color: #999;
+	justify-content: center;
+}

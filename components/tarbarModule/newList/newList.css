@@ -1,0 +1,59 @@
+/* components/tarbarModule/newList/newList.wxss */
+
+@import "../../common/weui.css";
+
+.record-list {
+	background-color: #fff;
+	bottom: 0;
+	padding: 12px 15px;
+	margin: 0px 0 5px 0;
+}
+
+.list-box-text {
+	font-size: 12px;
+}
+
+.item-title {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 12px 0;
+}
+
+
+.list-box-c {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+weui-cell__ft_in-access {
+	padding-right: 13px;
+	position: relative
+}
+
+.weui-cell__ft_in-access:after {
+	content: " ";
+	display: inline-block;
+	height: 4px;
+	width: 4px;
+	border-width: 2px 2px 0 0;
+}
+.list-content{
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 95%;
+	word-break: break-all;
+}
+.nomore{
+	margin-top: 20rpx;
+	height: 30rpx;
+	text-align: center;
+	font-size: 28rpx;
+}

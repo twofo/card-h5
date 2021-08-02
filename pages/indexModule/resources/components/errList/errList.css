@@ -1,0 +1,26 @@
+.errBox{
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+.errList{
+	display: flex;
+	font-size: 30rpx;
+	margin-bottom: 30rpx;
+	align-items: center;
+}
+.errAdree{
+	font-weight: bolder;
+}
+.errInfo{
+	padding-left: 30rpx;
+	box-sizing: border-box;
+}
+.errInfoTxt{
+	font-size: 28rpx;
+	color: #999;
+}
+.image-css{
+	width: 50rpx;
+	height: 60rpx;
+	margin: 0 30rpx 0 30rpx;
+}

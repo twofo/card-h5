@@ -1,0 +1,10 @@
+.desc-font{
+  margin-top: 10rpx;
+}
+.weui-label__text{
+  width:150px;
+}
+.myui-media-box__desc{
+  color:#999;font-size:13px;line-height:1.2;
+  overflow:hidden;text-overflow:ellipsis;-webkit-box-orient:vertical;-webkit-line-clamp:2;
+}

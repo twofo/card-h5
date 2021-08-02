@@ -1,0 +1,96 @@
+.pianoRoom-content view{
+  font-size: 32rpx;
+}
+.subsection{
+  margin-top: 12rpx;
+}
+.image-items{
+  width:15px;
+  height:15px;
+  vertical-align: middle;
+}
+.freeTitle{
+  padding: 22rpx 32rpx;
+  box-sizing: border-box;
+}
+.noticeFont{
+  color: #20A4F7;
+}
+.noticeDistance{
+  margin-left: 36rpx;
+}
+.standerFree{
+ vertical-align: middle;
+}
+.iconStyle{
+  line-height: 0px;
+  margin-left: 4rpx;
+}
+.payWallet{
+  display: inline-block;
+  width: 24rpx;
+  height: 24rpx;
+  border: 2rpx solid #20A4F7;
+  border-radius: 50%;
+  margin-left: 100rpx;
+}
+.payfor{
+  display: flex;
+  align-items: center;
+
+}
+.actives{
+  background: #20A4F7;
+}
+.arrow{
+  margin-left: 18rpx;
+}
+.arrow::after{
+  border-color: #20A4F7;
+}
+.footer{
+  margin-top: 80rpx;
+}
+.warmCont{
+  display: block;
+  margin-top: 66rpx;
+  margin-bottom: 66rpx;
+}
+.warmCont:before{
+  content: " ";
+  border-top: 1rpx solid transparent;
+
+}
+.noticeCont text{
+  font-size: 28rpx;
+  color: #888888;
+}
+.noticeCont{
+  display: flex;
+  flex-direction: column;
+
+}
+.coverContent{
+  width: 100%;
+}
+.hasToKnowBox{
+  margin-top: 32rpx;
+}
+.hasToKnow{
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 36rpx;
+ 
+}
+.hasToKnowCont{
+  margin-top: 30rpx;
+}
+.hasToKnowTxt,.isImportantNotice{
+  font-size: 28rpx;
+}
+.hasToKnowTitle{
+  letter-spacing: 2px;
+}
+.isImportantNotice{
+  margin-top: 30rpx;
+}

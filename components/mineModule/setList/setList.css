@@ -1,0 +1,7 @@
+/* components/mineModule/setList/setList.wxss */
+
+@import "../../common/weui.css";
+
+.box{
+  height: 60rpx;
+}

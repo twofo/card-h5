@@ -1,0 +1,98 @@
+
+.reporter-pic{
+  background-color: #fff;
+  margin-bottom: 7rpx;
+  height: 170rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.reporter-title{
+    margin-left: 35rpx;
+    font-size: 14pt;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.user-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border: 1rpx rgb(221, 212, 212) solid;
+  border-radius: 65rpx;
+  margin-right: 55rpx;
+}
+.btn-open {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 10rpx;
+}
+.btn-enter {
+  width: 16rpx;
+  height: 20rpx;
+  position: relative;
+  right: 30rpx;
+}
+.repairImgCount{
+	display: flex;
+	align-items: center;
+	margin-right: 10rpx;
+}
+.noticeFont{
+	color: #FF2020;
+}
+.repairImgCountText{
+	margin-left: 10rpx;
+	font-size: 28rpx;
+}
+.noticeFont{
+  color: #20A4F7;
+}
+.toastCover-head{
+  text-align: center;
+  font-size: 36rpx;
+  letter-spacing: 4rpx;
+	font-weight: bold;
+}
+.faceTxt{
+	font-size: 28rpx;
+}
+.faceToastCont{
+	margin-top: 28rpx;
+}
+.faceImg{
+	width: 100rpx;
+}
+.faceImgBox{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20rpx;
+}
+.faceNoticeTxt{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin-top: 40rpx;
+	position: ;
+}
+.closeToast{
+	width: 100%;
+	text-align: center;
+	height: 80rpx;
+	border-top: 1rpx solid #eee;
+	margin-top: 40rpx;
+	line-height: 80rpx;
+	letter-spacing: 8rpx;
+
+}
+.nomoreTimes{
+	align-items: center;
+}
+.fontColorGray{
+	color: #7C7C7C;
+}
+.fontColorRed{
+	color: #FF2020;
+}

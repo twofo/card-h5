@@ -1,0 +1,38 @@
+/* pages/indexModule/resources/components/feeList/feeList.wxss */
+
+.items-box{
+  width: 100%;
+  height: 56px;
+  background-color: #fff;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.items-left{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0px 0px 15px;
+}
+.items-right{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+  color: rgb(32,164,247);
+  font-size: 20px;
+  text-align:right;
+}
+.items-left__font{
+  font-weight: 550;
+}
+.items-left__time{
+  font-size: 10px;
+  color: rgb(143,148,159);
+  display: flex;
+  flex-direction: row;
+}

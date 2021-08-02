@@ -1,0 +1,88 @@
+/* components/attendanceModule/attenList/attenList.wxss */
+@import "../../common/weui.css";
+text{
+  font-size: 32rpx;
+}
+.attenListPage{
+  width: 100%;
+  padding: 10rpx 30rpx 0;
+  box-sizing: border-box;
+
+}
+.attendBox{
+  margin-bottom: 25rpx;
+  background: #fff;
+  box-sizing: border-box;
+  padding-bottom: 10rpx;
+  border-radius: 10rpx;
+}
+.attent-type{
+ justify-content: space-between;
+  
+}
+.typeImage{
+  margin-right: 5px; 
+  width:23px; 
+  height: 25px;
+  vertical-align: middle;
+}
+
+.meetingRoomName{
+  font-size: 36rpx !important;
+  font-weight: 600;
+}
+.myui-cell{
+  padding:6rpx 30rpx;
+  display: flex; 
+  flex-direction: row
+}
+.myui-cell__bd{
+  width: 26%;
+}
+.myui-cell__bf{
+  width: 74%;
+  color:#999;
+}
+.contTitle{
+  float: left;
+  overflow: hidden;
+  text-align: justify;
+  text-align-last: justify;
+}
+.myui-cell view{
+  font-size: 30rpx;
+}
+.attend-content{
+  margin-bottom: 24rpx;
+
+}
+.pin-solid.icons {
+  color: #FA6400;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 2px;
+  width: 12px;
+  height: 12px;
+  border: solid 1px currentColor;
+  border-radius: 7px 7px 7px 0;
+  background-color: currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.pin-solid.icons:before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 4px;
+  height: 4px;
+  color: white;
+  border: solid 1px currentColor;
+  border-radius: 3px;
+  background-color: currentColor;
+}
+.adress{
+  margin-left: 60rpx;
+}
+

@@ -1,0 +1,27 @@
+/* pages/indexModule//pages/inOrOutSchoolApply/inOrOutSchoolApply.wxss */
+
+.weui-cell__bdt{
+	margin: 0 40rpx;
+}
+
+
+
+
+
+
+.page__bd_spacing {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.image-items{
+  width:15px;
+  height:20px;
+  vertical-align: middle;
+}
+
+
+.myui-cells-items{
+  padding: 0 20rpx;
+  /* border: 1px rebeccapurple solid; */
+}

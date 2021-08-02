@@ -1,0 +1,27 @@
+.weui-article h1{
+	font-size: 36rpx;
+	font-weight: 700;
+}
+.rightArrow{
+	width: 14rpx;
+	height: 14rpx;
+	border-top: 4rpx solid #999;
+	border-right: 4rpx solid #999;
+	transform: rotate(45deg);
+}
+.weliBox{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20rpx 0;
+	border-bottom: 2rpx solid #DDD;
+}
+.className{
+	font-weight: bolder; 
+	margin-right: 20rpx;
+}
+.nobody{
+	margin-top: 100rpx;
+	text-align: center;
+	
+}

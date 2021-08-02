@@ -1,0 +1,66 @@
+/* components/attendanceModule/checkPendingList/checkPendingList.wxss */
+
+@import "../../common/weui.css";
+
+.top{
+  margin-top: 10rpx;
+}
+.weui-cell__ld{
+  width: 24%;
+}
+.weui-cell__rd{
+  width: 73%;
+  padding:0px 15px;
+  color:#999;
+  display:flex;
+  flex-direction: row;
+}
+.text-bd{
+  display:flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+.bd{
+  border-top: 1px #eee solid;
+  margin: 3rpx 0;
+  display:flex;
+  flex-direction: column;
+  padding:10px 15px;
+}
+.text-date{
+  margin-top: 20rpx;
+  color:#999;
+}
+
+.button-sp-area{
+  width: 90%;
+  height: 130rpx;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mini-btn{
+  /* border: 1px rgba(0, 0, 0, 0.404) solid; */
+  height: 90rpx;
+  width: 40%;
+}
+.danger{
+  background: #F66C45;
+  color: #fff;
+}
+.primary{
+  background-color: #20a4f7; 
+  color: #fff;
+}
+
+.img{
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 30rpx;
+}
+.img_bd{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

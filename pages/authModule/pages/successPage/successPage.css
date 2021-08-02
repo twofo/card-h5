@@ -1,0 +1,56 @@
+page{
+    background-color: #FFFFFF;
+}
+button[type='primary']{
+background-color: #20a4f7; 
+}
+.myui-text{
+  display: flex;
+  flex-direction:column;
+}
+view{
+  font-size: 34rpx ;
+}
+.line{
+  width: 100%;
+  height: 4rpx;
+  background: #F4F4F4;
+  margin-bottom: 60rpx;
+}
+.myui-cell{
+  padding:6rpx 30rpx;
+  display: flex; 
+  flex-direction: row
+}
+.myui-cell__bd{
+  width: 30%;
+}
+.myui-cell__bf{
+  width: 70%;
+  color:#999;
+  text-align: left;
+}
+.contTitle{
+  float: left;
+  overflow: hidden;
+  text-align: justify;
+  text-align-last: justify;
+}
+.myui-cell view{
+  font-size: 30rpx;
+}
+.orderBtnBox{
+  justify-content: center;
+  margin-top: 60rpx;
+}
+.orderBtn{
+  width: 210rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  border-radius: 12rpx;
+  background: #20A4F7;
+  color: #fff;
+}
+.orderBtn:first-child{
+  background: #76C0EE;
+}

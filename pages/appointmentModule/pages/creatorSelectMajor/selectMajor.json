@@ -1,0 +1,10 @@
+{
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "选择专业",
+  "usingComponents": {
+    "select-recevice": "/components/attendanceModule/selectRecevice/selectRecevice",
+    "search-inp": "/components/attendanceModule/searchAppiontPerson/searchAppiontPerson"
+  }
+}

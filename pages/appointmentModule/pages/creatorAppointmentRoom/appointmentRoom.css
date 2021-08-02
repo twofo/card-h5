@@ -1,0 +1,46 @@
+.roomsItem{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25rpx 30rpx;
+	box-sizing: border-box;
+  background: #ffff;
+	border-bottom: 1rpx solid #E5E5E5;
+}
+
+.leftItem{
+	display: flex;
+	align-items: center;
+}
+.roomsInfo{
+	display: flex;
+	flex-direction: column;
+  margin-left: 20rpx;
+ font-size: 28rpx;
+
+	
+}
+.roomsDesc{
+	font-size: 24rpx;
+  color: #747474;
+
+}
+.right{
+	
+	padding: 6rpx 40rpx;
+	background-color: #20A4F7;
+	border-radius: 40rpx;
+	color: #fff;
+	font-size: 26rpx;
+}
+.roomsTitle{
+	padding: 10rpx 30rpx;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-bottom: 1rpx solid #E5E5E5;
+	font-size: 30rpx;
+}
+.nomore{
+	margin-top: 30rpx;
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+.userPic{
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 50%; 
+}
+.pagehead{
+	height: 250rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	padding: 0 20rpx 40rpx 20rpx;
+	box-sizing: border-box;
+	
+}
+.weui-right{
+	color: #999;
+	margin-left: 20rpx;
+}
+.weui-list{
+		padding: 0rpx 0 30rpx;
+		box-sizing: border-box;
+
+}

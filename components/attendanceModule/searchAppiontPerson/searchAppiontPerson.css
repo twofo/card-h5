@@ -1,0 +1,27 @@
+@import "../../common/weui.css";
+.searchBox{
+  width: 100%;
+}
+.search-Inp{
+  background: #e8eaee;
+  width: 100%;
+  border-radius: 10rpx;
+  padding-left: 57rpx;
+  box-sizing: border-box;
+  position: relative;
+
+}
+.search-inp-box{
+  padding: 20rpx 0rpx;
+  box-sizing: border-box;
+}
+.search-inp-icon{
+  position: absolute;
+  left: 14rpx;
+  top: 48rpx;
+  z-index: 9999;
+
+}
+.weui-cells:after {
+  border-bottom:  none !important;
+}

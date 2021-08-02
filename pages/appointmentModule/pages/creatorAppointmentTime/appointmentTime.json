@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText":"选择场次",
+	 "enablePullDownRefresh": false,
+  "usingComponents": {
+			"selects":"/components/common/wxPicker/wxPicker",
+			"area-time":"/components/attendanceModule/areaAndTime/areaAndTime"
+  }
+}

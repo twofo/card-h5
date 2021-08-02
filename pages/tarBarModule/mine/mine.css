@@ -1,0 +1,33 @@
+
+.container{
+  background-color: #f0eff5;
+  padding: 0;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px red solid; */
+  background-color: #fff;
+  background: #20a4f7;
+  min-height: 170rpx;
+  margin-bottom: 30rpx;
+  padding: 30rpx 30rpx 0rpx; 
+}
+
+
+
+
+.more_bd{
+  margin-left:30rpx;
+  margin-top:15rpx;
+}
+.more_rightIcon{
+  margin-top:13rpx;
+}
+
+.user-right-text{
+  margin-left: 80rpx;
+  margin-top: 20rpx;
+}

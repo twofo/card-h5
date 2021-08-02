@@ -1,0 +1,162 @@
+.box{
+  width: 100%;
+  height: 480rpx;
+}
+.box-show{
+  width: 100%;
+  height: 380rpx;
+  background: #20a4f7;
+}
+.box-show-msg{
+  width: 70%;
+  height: 200px;
+  margin-left: 15%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;  
+  align-items:center;
+}
+.box-show-balance{
+  width: 200px;
+  height: 24px;
+  font-size: 17px;
+  color: #fff;
+  display:flex;
+  flex-direction:column; 
+  align-items:center;
+}
+.box-show-money{
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+}
+.box-show-integral{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 60rpx;
+}
+.integral-pic{
+  width: 20px;
+  height: 20px;
+  margin-right: 20rpx;
+}
+
+
+.box-module{
+  width: 90%;
+  height: 82px;
+  margin-top: -30px;
+  margin-left: 5%;
+  background: #fff;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+}
+.box-items{
+  width: 33%;
+  height: 82px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;  
+  align-items:center;
+	flex: 1;
+}
+.box-items-select{
+  width: 46px;
+  height: 53px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;  
+  align-items:center;
+}
+.items-border{
+  border-right: 1px #e5e5e5 solid;
+  height: 53px;
+}
+.items-select-pic{
+  width: 45px;
+  height: 53px;
+}
+.top{
+  margin-top: 70rpx;
+}
+.submit_a{
+  border: 1px solid #e5e5e5;
+}
+.btnBox{
+	background-color: #fff;
+	width: 91%;
+	margin: 20rpx auto 20rpx;
+  border-radius: 10rpx;
+}
+.walltBtn{
+	text-align: left;
+	color: #333333;
+	background-color: #fff;
+  padding-left: 60rpx;
+
+}
+.walltBtn::after{
+	border: none;
+	border-bottom: 1rpx solid #ddd;
+}
+.rightArrow{
+	width: 14rpx;
+	height: 14rpx;
+	border-top: 4rpx solid #999999;
+	border-right: 4rpx solid #999999;
+	transform: rotate(45deg);
+}
+.bottomArrow{
+	width: 14rpx;
+	height: 14rpx;
+	border-bottom: 4rpx solid #999999;
+	border-right: 4rpx solid #999999;
+	transform: rotate(45deg);
+	transition: all 0.3s ease-in-out;
+}
+.topArrow{
+	width: 14rpx;
+	height: 14rpx;
+	border-top: 4rpx solid #999999;
+	border-right: 4rpx solid #999999;
+	transition: all 0.3s ease-in-out;
+	transform: rotate(-45deg);
+}
+.walltBtnBox{
+	position:relative;
+}
+.arrowPosition{
+	position: absolute;
+	right: 47rpx;
+	top: 40rpx;
+
+}
+.walletImg{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 26rpx;
+  z-index: 999;
+
+}
+.applyType{
+	padding-left: 0;
+}
+.page__bd{
+	padding-bottom:0 ;
+}
+.walllteListBox{
+	overflow: scroll;
+	transition: all 0.8s ease-in-out;
+	
+}
+.walllteList{
+	padding: 0 30rpx;
+	
+}

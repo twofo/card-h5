@@ -1,0 +1,44 @@
+/* components/common/navBarTwo/navBarTwo.wxss */
+@import "../weui.css";
+
+/* 显示样式 */
+.myui-navbar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	z-index: 500;
+	top: 0;
+	width: 100%;
+	border-bottom: 1rpx solid #ccc;
+	background: #20a4f7;
+	padding: 20rpx 4%;
+	box-sizing: border-box;
+}
+
+.myui-navbar__item {
+	position: relative;
+	display: block;
+	-webkit-box-flex: 1;
+	text-align: center;
+	font-size: 0;
+	width: 46%;
+	border: 1rpx #fff solid;
+}
+
+.myui-navbar__item.myui-bar__item_on {
+	color: #20a4f7;
+	background: #fff;
+}
+
+.myui-navbar__title {
+	display: inline-block;
+	font-size: 15px;
+	max-width: 8em;
+	width: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}

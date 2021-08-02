@@ -1,0 +1,14 @@
+
+
+.reporter-user{
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  font-size: 16pt;
+  margin-top: 45rpx;
+  margin-bottom: 15rpx;
+  padding-left: 35rpx;
+}
+button[type='primary']{
+  background-color: #20a4f7;
+} 

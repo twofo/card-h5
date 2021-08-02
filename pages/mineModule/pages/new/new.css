@@ -1,0 +1,12 @@
+
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx 20rpx 0;
+}
+.content-ending{
+  width: 100%;
+  color: #bbb;
+  text-align: center;
+  margin: 30rpx auto;
+}

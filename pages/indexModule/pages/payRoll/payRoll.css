@@ -1,0 +1,20 @@
+
+.top{
+  margin-top: 15rpx;
+}
+.box-top{
+  margin-top: 50rpx;
+}
+.bottom{
+  margin-top: 160rpx;
+}
+button[type='primary']{
+  background-color: #20a4f7;
+}
+.bottom-top{
+  margin-top: 200rpx;
+}
+.input-title{
+  margin-left: 10rpx;
+}
+

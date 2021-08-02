@@ -1,0 +1,13 @@
+page{
+    background-color: #FFFFFF;
+}
+button[type='primary']{
+background-color: #20a4f7; 
+}
+button[disabled][type='primary']{
+  background-color: #7fc8f5; 
+}
+.myui-text{
+  display: flex;
+  flex-direction:column;
+}

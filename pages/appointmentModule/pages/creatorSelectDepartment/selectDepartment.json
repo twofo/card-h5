@@ -1,0 +1,10 @@
+{
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false,   
+  "navigationBarTitleText": "已选人员",
+  "usingComponents": {
+    "select-recevice": "/components/attendanceModule/selectRecevice/selectRecevice",
+    "search-inp": "/components/attendanceModule/searchAppiontPerson/searchAppiontPerson"
+  }
+}
